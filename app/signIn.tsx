@@ -42,7 +42,7 @@ const SignIn = () => {
     }
   };
   return (
-    <CustomKeyboardView>
+    <CustomKeyboardView inchat={false}>
       <StatusBar style="dark" />
       <View
         style={{ paddingTop: hp(8), paddingHorizontal: wp(5) }}

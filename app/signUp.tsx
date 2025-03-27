@@ -55,7 +55,7 @@ const SignUp = () => {
     }
   };
   return (
-    <CustomKeyboardView>
+    <CustomKeyboardView inchat={false}>
       <View className="flex-1">
         <StatusBar style="dark" />
         <View

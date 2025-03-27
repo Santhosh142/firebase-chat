@@ -46,7 +46,7 @@ export function HomeHeader() {
               style={{ height: hp(4.3), aspectRatio: 1, borderRadius: 100 }}
               source={user?.profileUrl}
               transition={blurhash}
-            />{" "}
+            />
           </MenuTrigger>
           <MenuOptions
             customStyles={{
